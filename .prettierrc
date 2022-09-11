@@ -1,4 +1,8 @@
 {
   "singleQuote": true,
-  "trailingComma": "all"
+	"trailingComma": "all",
+	"importOrderSortSpecifiers": true,
+	"importOrderSeparation": true,
+	"importOrderParserPlugins": ["classProperties", "decorators-legacy"],
+	"importOrder": ["^[./]"]
 }
