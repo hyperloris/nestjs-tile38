@@ -1,8 +1,9 @@
 {
+  "printWidth": 120,
   "singleQuote": true,
-	"trailingComma": "all",
-	"importOrderSortSpecifiers": true,
-	"importOrderSeparation": true,
-	"importOrderParserPlugins": ["classProperties", "decorators-legacy"],
-	"importOrder": ["^[./]"]
+  "trailingComma": "all",
+  "importOrderSortSpecifiers": true,
+  "importOrderSeparation": true,
+  "importOrderParserPlugins": ["classProperties", "decorators-legacy"],
+  "importOrder": ["^[./]"]
 }
