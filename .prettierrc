@@ -4,6 +4,6 @@
   "trailingComma": "all",
   "importOrderSortSpecifiers": true,
   "importOrderSeparation": true,
-  "importOrderParserPlugins": ["classProperties", "decorators-legacy"],
+  "importOrderParserPlugins": ["typescript", "classProperties", "decorators-legacy"],
   "importOrder": ["^[./]"]
 }
