@@ -1,10 +1,11 @@
-import { DynamicModule, Module, Provider } from '@nestjs/common';
+import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
 
 import { tile38ModuleOptions, tile38ModuleToken } from './constants';
 import { Tile38ModuleAsyncOptions, Tile38ModuleOptions, Tile38OptionsFactory } from './interfaces';
 import { createTile38Provider } from './providers';
 import { getTile38Client } from './util';
 
+@Global()
 @Module({})
 export class Tile38CoreModule {
   public static forRoot(options: Tile38ModuleOptions): DynamicModule {
