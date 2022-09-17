@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  tile38:
+    image: tile38/tile38:latest
+    container_name: 'tile38-testing'
+    ports:
+      - '9851:9851'
