@@ -1,4 +1,6 @@
-import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
+import { DynamicModule, Global, Module, OnApplicationShutdown, Provider } from '@nestjs/common';
+import { ModuleRef } from '@nestjs/core';
+import { Tile38 } from '@tiermobility/tile38-ts';
 
 import { tile38ModuleOptions, tile38ModuleToken } from './constants';
 import { Tile38ModuleAsyncOptions, Tile38ModuleOptions, Tile38OptionsFactory } from './interfaces';
@@ -7,7 +9,9 @@ import { getTile38Client } from './util';
 
 @Global()
 @Module({})
-export class Tile38CoreModule {
+export class Tile38CoreModule implements OnApplicationShutdown {
+  public constructor(private readonly moduleRef: ModuleRef) {}
+
   public static forRoot(options: Tile38ModuleOptions): DynamicModule {
     const tile38Provider = createTile38Provider(options);
 
@@ -31,6 +35,13 @@ export class Tile38CoreModule {
       providers: [...this.createAsyncProviders(options), tile38Provider],
       exports: [tile38Provider],
     };
+  }
+
+  public async onApplicationShutdown(): Promise<void> {
+    const tile38 = this.moduleRef.get<Tile38>(tile38ModuleToken);
+    if (tile38) {
+      await tile38.quit();
+    }
   }
 
   private static createAsyncProviders(options: Tile38ModuleAsyncOptions): Provider[] {
