@@ -2,6 +2,10 @@
   "name": "nestjs-tile38",
   "version": "0.0.1",
   "description": "Nest - a tile38 module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperloris/nestjs-tile38"
+  },
   "license": "MIT",
   "author": "Lorenzo Gigli <lorenzo.dramis@gmail.com>",
   "scripts": {
