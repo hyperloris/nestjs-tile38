@@ -7,6 +7,11 @@
     "url": "https://github.com/hyperloris/nestjs-tile38"
   },
   "license": "MIT",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": "Lorenzo Gigli <lorenzo.dramis@gmail.com>",
   "scripts": {
     "prepare": "husky install",
@@ -14,7 +19,7 @@
     "build": "tsc -p tsconfig.json",
     "format": "prettier --write \"lib/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{lib,apps,libs,test}/**/*.ts\" --fix",
-    "prepublish": "npm run build",
+    "prepublish": "rimraf dist & tsc -p tsconfig.build.json",
     "publish": "npm publish --access public",
     "release": "release-it",
     "test": "jest",
