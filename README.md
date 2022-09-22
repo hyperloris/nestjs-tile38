@@ -12,7 +12,7 @@
   <a href="https://www.npmjs.com/package/nestjs-tile38" target="_blank"><img src="https://img.shields.io/npm/v/nestjs-tile38.svg?style=flat-square" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/nestjs-tile38" target="_blank"><img src="https://img.shields.io/npm/l/nestjs-tile38.svg?style=flat-square" alt="Package License" /></a>
   <a href="https://www.npmjs.com/package/nestjs-tile38" target="_blank"><img src="https://img.shields.io/npm/dm/nestjs-tile38.svg?style=flat-square" alt="NPM Downloads" /></a>
-  <a href="https://github.com/hyperloris/nestjs-tile38/actions" target="_blank"><img src="https://shields.io/github/workflow/status/hyperloris/nestjs-tile38/Main.svg?style=flat-square" alt="CI Status" /></a>
+  <a href="https://github.com/hyperloris/nestjs-tile38/actions" target="_blank"><img src="https://shields.io/github/workflow/status/hyperloris/nestjs-tile38/Test.svg?style=flat-square" alt="CI Status" /></a>
   <a href="https://coveralls.io/github/hyperloris/nestjs-tile38?branch=main" target="_blank"><img src="https://coveralls.io/repos/github/hyperloris/nestjs-tile38/badge.svg?style=flat-square" alt="Coverage" /></a>
 </p>
 
