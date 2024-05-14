@@ -18,12 +18,12 @@
 
 ## Description
 
-[Tile38](https://tile38.com) module for [Nest](https://github.com/nestjs/nest). This package is based on [Tile38-ts](https://github.com/tiermobility/tile38-ts), so visit its documentation for any questions about the API.
+[Tile38](https://tile38.com) module for [Nest](https://github.com/nestjs/nest). This package is based on [Tile38-ts](https://github.com/iwpnd/tile38-ts), so visit its documentation for any questions about the API.
 
 ## Installation
 
 ```bash
-$ npm i --save nestjs-tile38 @tiermobility/tile38-ts
+$ npm i --save nestjs-tile38 @iwpnd/tile38-ts
 ```
 
 ## Quick Start
@@ -50,7 +50,7 @@ Second, inject the Tile38 client into any of your injectables by using the `Inje
 ```ts
 import { Injectable } from '@nestjs/common';
 import { InjectTile38 } from 'nestjs-tile38';
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 @Injectable()
 export class AppService {
@@ -65,4 +65,4 @@ Licensed under [MIT](./LICENSE).
 ## Acknowledgements
 
 - [nestjs](https://nestjs.com)
-- [tile38-ts](https://github.com/tiermobility/tile38-ts)
+- [tile38-ts](https://github.com/iwpnd/tile38-ts)
