@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 import { Tile38Module } from './../tile38.module';
 import { InjectTile38 } from './inject-tile38';

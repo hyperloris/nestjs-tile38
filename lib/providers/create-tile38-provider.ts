@@ -1,5 +1,5 @@
 import { Provider } from '@nestjs/common';
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 import { tile38ModuleToken } from './../constants';
 import { Tile38ModuleOptions } from './../interfaces';

@@ -54,11 +54,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@iwpnd/tile38-ts": "^2.1.4",
     "@nestjs/common": "^10.3.7",
     "@nestjs/core": "^10.3.7",
     "@nestjs/testing": "^10.3.7",
     "@release-it/conventional-changelog": "^5.1.0",
-    "@tiermobility/tile38-ts": "^1.0.6",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/jest": "28.1.8",
     "@types/node": "^16.0.0",
@@ -89,7 +89,7 @@
   "peerDependencies": {
     "@nestjs/common": "^8.0.0 || ^9.0.0 || ^ 10.0.0",
     "@nestjs/core": "^8.0.0 || ^9.0.0  ^ 10.0.0",
-    "@tiermobility/tile38-ts": "^1.0.6",
+    "@iwpnd/tile38-ts": "^2.1.4",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^7.0.0"
   }

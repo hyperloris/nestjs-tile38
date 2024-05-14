@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { JSONResponse } from '@tiermobility/tile38-ts';
+import { JSONResponse } from '@iwpnd/tile38-ts';
 
 import { AddTruckDto } from './dto';
 import { TrucksService } from './trucks.service';

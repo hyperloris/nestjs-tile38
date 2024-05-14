@@ -1,4 +1,4 @@
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 import { getTile38Client } from './get-tile38-client';
 

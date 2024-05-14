@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { JSONResponse, Tile38 } from '@tiermobility/tile38-ts';
+import { JSONResponse, Tile38 } from '@iwpnd/tile38-ts';
 
 import { InjectTile38 } from './../../../lib';
 import { AddTruckDto } from './dto';

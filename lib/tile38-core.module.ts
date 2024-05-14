@@ -1,6 +1,6 @@
 import { DynamicModule, Global, Module, OnApplicationShutdown, Provider } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 import { tile38ModuleOptions, tile38ModuleToken } from './constants';
 import { Tile38ModuleAsyncOptions, Tile38ModuleOptions, Tile38OptionsFactory } from './interfaces';

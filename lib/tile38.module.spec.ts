@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { Test } from '@nestjs/testing';
-import { Tile38 } from '@tiermobility/tile38-ts';
+import { Tile38 } from '@iwpnd/tile38-ts';
 
 import { tile38ModuleToken } from './constants';
 import { Tile38ModuleOptions, Tile38OptionsFactory } from './interfaces';
