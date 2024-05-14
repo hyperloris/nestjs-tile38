@@ -1,5 +1,13 @@
 
 
+# [10.0.0](https://github.com/hyperloris/nestjs-tile38/compare/9.2.0...10.0.0) (2024-05-14)
+
+
+### Features
+
+* upgrade @nestjs/common to v10.3.7 and adjust peer dependencies ([b3c5afe](https://github.com/hyperloris/nestjs-tile38/commit/b3c5afeb252f1cb59d6faf86ff2c1480e7de4919))
+* upgrade tile38-ts from 1.x to the new major release 2.x ([dae62e6](https://github.com/hyperloris/nestjs-tile38/commit/dae62e6a4b4784fb0565147965cf47bab16b7a1b))
+
 # 9.2.0 (2022-09-21)
 
 
