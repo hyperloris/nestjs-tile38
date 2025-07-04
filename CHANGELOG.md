@@ -1,5 +1,12 @@
 
 
+# [11.0.0](https://github.com/hyperloris/nestjs-tile38/compare/10.0.0...11.0.0) (2025-07-04)
+
+
+### Bug Fixes
+
+* **ci:** update to docker compose plugin ([ba51076](https://github.com/hyperloris/nestjs-tile38/commit/ba510766a914851efded7f5b5dbfe941268c5194))
+
 # [10.0.0](https://github.com/hyperloris/nestjs-tile38/compare/9.2.0...10.0.0) (2024-05-14)
 
 
